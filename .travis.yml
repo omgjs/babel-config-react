@@ -3,4 +3,4 @@ deploy:
   email: artkor@live.ru
   provider: npm
   api_key:
-    secure: $secret
+    secure: $NPM_TOKEN

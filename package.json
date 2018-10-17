@@ -2,6 +2,9 @@
 	"name": "@omgjs/babel-config-react",
 	"version": "1.0.0",
 	"private": false,
+	"publishConfig": {
+		"access": "public"
+	},
 	"description": "Babel config in node module",
 	"main": "babel-config-react.js",
 	"scripts": {
