@@ -1,0 +1,29 @@
+{
+	"name": "@omgjs/babel-config-react",
+	"version": "1.0.0",
+	"private": false,
+	"description": "Babel config in node module",
+	"main": "babel-config-react.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/omgjs/babel-config-react.git"
+	},
+	"keywords": [
+		"balel",
+		"javascript",
+		"ecmascript",
+		"eslint",
+		"prettier",
+		"react",
+		"graphql"
+	],
+	"author": "Artem Korolev",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/omgjs/babel-config-react/issues"
+	},
+	"homepage": "https://github.com/omgjs/babel-config-react#readme"
+}
