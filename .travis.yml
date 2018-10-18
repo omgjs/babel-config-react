@@ -8,3 +8,6 @@ deploy:
     secure: $NPM_TOKEN
   script:
     - npx semantic-release
+branches:
+  only:
+    - master
