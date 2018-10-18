@@ -6,7 +6,7 @@
 		"access": "public"
 	},
 	"description": "Babel config in node module",
-	"main": "babel-config-react.js",
+	"main": "src/babel-config-react.js",
 	"scripts": {
 		"test": "echo \"Warning: this package comes without tests\" && exit 0"
 	},
