@@ -28,5 +28,71 @@
 	"bugs": {
 		"url": "https://github.com/omgjs/babel-config-react/issues"
 	},
-	"homepage": "https://github.com/omgjs/babel-config-react#readme"
+	"homepage": "https://github.com/omgjs/babel-config-react#readme",
+	"eslintConfig": {
+		"extends": "@omgjs/eslint-config-react"
+	},
+	"babel": {
+		"extends": "@omgjs/babel-config-react"
+	},
+	"devDependencies": {
+		"@omgjs/eslint-config-react": "x",
+		"@omgjs/prettier-config-react": "x",
+		"@babel/core": "7.x",
+		"@babel/plugin-proposal-class-properties": "7.x",
+		"@babel/plugin-proposal-decorators": "7.x",
+		"@babel/plugin-proposal-export-namespace-from": "7.x",
+		"@babel/plugin-proposal-function-sent": "7.x",
+		"@babel/plugin-proposal-json-strings": "7.x",
+		"@babel/plugin-proposal-numeric-separator": "7.x",
+		"@babel/plugin-proposal-throw-expressions": "7.x",
+		"@babel/plugin-syntax-dynamic-import": "7.x",
+		"@babel/plugin-syntax-import-meta": "7.x",
+		"@babel/plugin-transform-runtime": "7.x",
+		"@babel/polyfill": "7.x",
+		"@babel/preset-env": "7.x",
+		"@babel/preset-react": "7.x",
+		"@babel/register": "7.x",
+		"@babel/runtime": "7.x",
+		"babel-core": "7.0.0-beta.3",
+		"babel-eslint": "10.x",
+		"babel-jest": "23.x",
+		"babel-loader": "8.x",
+		"babel-plugin-lodash": "3.x",
+		"eslint": "5.x",
+		"eslint-config-airbnb": "17.x",
+		"eslint-config-prettier": "3.x",
+		"eslint-loader": "2.x",
+		"eslint-plugin-import": "2.x",
+		"eslint-plugin-jest": "21.x",
+		"eslint-plugin-jsx-a11y": "6.x",
+		"eslint-plugin-markdown": "^1.0.0-beta.6",
+		"eslint-plugin-prettier": "2.x",
+		"eslint-plugin-react": "7.x",
+		"eslint-watch": "4.x",
+		"prettier": "1.x"
+	},
+	"peerDependencies": {
+		"@babel/core": "7.x",
+		"@babel/plugin-proposal-class-properties": "7.x",
+		"@babel/plugin-proposal-decorators": "7.x",
+		"@babel/plugin-proposal-export-namespace-from": "7.x",
+		"@babel/plugin-proposal-function-sent": "7.x",
+		"@babel/plugin-proposal-json-strings": "7.x",
+		"@babel/plugin-proposal-numeric-separator": "7.x",
+		"@babel/plugin-proposal-throw-expressions": "7.x",
+		"@babel/plugin-syntax-dynamic-import": "7.x",
+		"@babel/plugin-syntax-import-meta": "7.x",
+		"@babel/plugin-transform-runtime": "7.x",
+		"@babel/polyfill": "7.x",
+		"@babel/preset-env": "7.x",
+		"@babel/preset-react": "7.x",
+		"@babel/register": "7.x",
+		"@babel/runtime": "7.x",
+		"babel-core": "7.x",
+		"babel-eslint": "10.x",
+		"babel-jest": "23.x",
+		"babel-loader": "8.x",
+		"babel-plugin-lodash": "3.x"
+	}
 }
