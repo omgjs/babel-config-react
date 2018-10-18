@@ -21,7 +21,8 @@
 		"eslint",
 		"prettier",
 		"react",
-		"graphql"
+		"graphql",
+		"es2018"
 	],
 	"author": "Artem Korolev",
 	"license": "MIT",
